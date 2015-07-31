@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Parse-Starter-Project-1.9.4 (1).iml" filepath="$PROJECT_DIR$/Parse-Starter-Project-1.9.4 (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShareYourMoment.iml" filepath="$PROJECT_DIR$/ShareYourMoment.iml" />
     </modules>
   </component>
 </project>

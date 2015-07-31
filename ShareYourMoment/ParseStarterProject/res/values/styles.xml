@@ -7,17 +7,17 @@
     -->
 
     <style name="AppBaseTheme" parent="android:style/Theme.Material.Light">
-        <item name="android:colorPrimary">#579FFC</item>
-        <item name="android:colorPrimaryDark">#5A6B77</item>
-        <item name="android:colorAccent">#FFFFFF</item>
-        <item name="android:textColorPrimary">#FFFFFF</item>
-        <item name="android:elevation">4dp</item>
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-
+        <item name="colorPrimary">#579FFC</item>
+        <item name="colorPrimaryDark">#3D71AF</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="elevation">4dp</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
+
 
     <style name="LoginFormContainer">
         <item name="android:layout_width">match_parent</item>
@@ -25,11 +25,22 @@
         <item name="android:padding">16dp</item>
     </style>
 
-    <style name="FabStyle" parent="Theme.AppCompat.Light">
+    <style name="FabStylePost" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">@dimen/fab_compat_margin</item>
         <item name="android:src">@drawable/ic_add</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="FabStyleConf" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_compat_margin</item>
+        <item name="android:src">@drawable/ic_done</item>
         <item name="borderWidth">0dp</item>
         <item name="elevation">8dp</item>
         <item name="pressedTranslationZ">12dp</item>

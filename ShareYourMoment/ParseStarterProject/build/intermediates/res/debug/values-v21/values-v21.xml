@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <dimen name="navigation_padding_top_default">24dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:style/Theme.Material.Light">
         <item name="android:colorPrimary">#579FFC</item>
@@ -13,9 +13,13 @@
         <item name="android:elevation">4dp</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-
+        <item name="colorPrimary">#579FFC</item>
+        <item name="colorPrimaryDark">#3D71AF</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="elevation">4dp</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -235,9 +239,19 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values-v21/styles.xml -->
     <eat-comment/>
-    <style name="FabStyle" parent="Theme.AppCompat.Light">
+    <style name="FabStyleConf" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_compat_margin</item>
+        <item name="android:src">@drawable/ic_done</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+    <style name="FabStylePost" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">@dimen/fab_compat_margin</item>
@@ -252,7 +266,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">16dp</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>

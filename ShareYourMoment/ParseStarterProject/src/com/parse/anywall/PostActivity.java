@@ -4,11 +4,11 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -37,6 +37,13 @@ public class PostActivity extends AppCompatActivity {
 
     setContentView(R.layout.activity_post);
 
+    ActionBar actionBar = getSupportActionBar();
+    actionBar.setDisplayShowHomeEnabled(true);
+    //actionBar.setDisplayHomeAsUpEnabled(true); //homebutton
+    actionBar.setIcon(R.drawable.ic_launcher);
+
+    initFab();
+
     Intent intent = getIntent();
     Location location = intent.getParcelableExtra(Application.INTENT_EXTRA_LOCATION);
     geoPoint = new ParseGeoPoint(location.getLatitude(), location.getLongitude());
@@ -60,15 +67,17 @@ public class PostActivity extends AppCompatActivity {
 
     characterCountTextView = (TextView) findViewById(R.id.character_count_textview);
 
-    postButton = (Button) findViewById(R.id.post_button);
-    postButton.setOnClickListener(new OnClickListener() {
+    updatePostButtonState();
+    updateCharacterCountTextViewText();
+  }
+
+  private void initFab() {
+    findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
+      @Override
       public void onClick(View v) {
         post();
       }
     });
-
-    updatePostButtonState();
-    updateCharacterCountTextViewText();
   }
 
   private void post () {
@@ -109,7 +118,7 @@ public class PostActivity extends AppCompatActivity {
   private void updatePostButtonState () {
     int length = getPostEditTextText().length();
     boolean enabled = length > 0 && length < maxCharacterCount;
-    postButton.setEnabled(enabled);
+   // postButton.setEnabled(enabled);
   }
 
   private void updateCharacterCountTextViewText () {

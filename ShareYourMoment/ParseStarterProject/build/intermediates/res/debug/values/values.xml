@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -19,21 +19,21 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
     <color name="background">#e5e5e5</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
     <color name="black_semi_transparent">#B2000000</color>
     <color name="blue_semi_transparent">#805677fc</color>
     <color name="blue_semi_transparent_pressed">#80738ffe</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -43,7 +43,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_colors.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -55,23 +55,23 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="error_color">#FFDD2C00</color>
     <color name="fab_stroke_end_inner_color">#0A000000</color>
     <color name="fab_stroke_end_outer_color">#0F000000</color>
     <color name="fab_stroke_top_inner_color">#1AFFFFFF</color>
     <color name="fab_stroke_top_outer_color">#2EFFFFFF</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
-    <color name="half_black">#808080</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <color name="half_black">#3D71AF</color>
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -84,11 +84,11 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
     <color name="pink">#e91e63</color>
     <color name="pink_pressed">#ec407a</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -104,19 +104,19 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="shadow_end_color">@android:color/transparent</color>
     <color name="shadow_mid_color">#14000000</color>
     <color name="shadow_start_color">#44000000</color>
     <color name="snackbar_background_color">#323232</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/colors.xml -->
     <eat-comment/>
     <color name="white">#fafafa</color>
     <color name="white_pressed">#f1f1f1</color>
@@ -160,7 +160,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -222,14 +222,14 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">0dp</dimen>
     <dimen name="activity_vertical_margin">0dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="appbar_elevation">4dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -237,13 +237,13 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_border_width">0.5dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="fab_compat_margin">8dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_content_size">24dp</dimen>
     <dimen name="fab_elevation">8dp</dimen>
@@ -257,12 +257,12 @@
     <dimen name="navigation_padding_bottom">8dp</dimen>
     <dimen name="navigation_padding_top_default">0dp</dimen>
     <dimen name="navigation_separator_vertical_padding">8dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="snackbar_action_inline_max_width">128dp</dimen>
     <dimen name="snackbar_background_corner_radius">0dp</dimen>
@@ -276,7 +276,7 @@
     <dimen name="snackbar_text_size">14sp</dimen>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_min_width">72dp</dimen>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -288,22 +288,22 @@
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="view_offset_helper" type="id"/>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/version.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">7571000</integer>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="snackbar_text_max_lines">2</integer>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -323,22 +323,22 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="activity_post_title">Create a Post</string>
     <string name="app_name">Share your Moment</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
     <eat-comment/>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="character_count_placeholder">0/140</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
@@ -372,7 +372,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings_activity_login.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="error_blank_password">enter a password</string>
     <string name="error_blank_username">enter a username</string>
@@ -380,68 +380,67 @@
     <string name="error_intro">"Please "</string>
     <string name="error_join">", and "</string>
     <string name="error_mismatched_passwords">enter the same password twice</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="login">Log in</string>
-    <string name="logout_full">Log out of Anywall</string>
+    <string name="logout_full">Log out</string>
     <string name="parse">Parse</string>
     <string name="post">Post</string>
     <string name="post_out_of_range">Can\'t view post! Get closer.</string>
     <string name="powered_by">Powered by</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings_activity_login.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="progress_login">Logging you in…</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="progress_post">Posting…</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings_activity_login.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="progress_signup">Signing you up…</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_password_again">Password Again</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="prompt_post">Post</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings_activity_login.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="prompt_username">Username</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="search_distance">Search Distance</string>
     <string name="settings_distance_format">%d feet</string>
     <string name="signup">Sign up</string>
     <string name="slogan">The world is your wall</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings_activity_login.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="title_activity_login">Log in</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_settings">Settings</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/strings_activity_login.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="title_activity_signup">Sign up</string>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:style/Theme.Material.Light">
-        <item name="android:colorPrimary">#579FFC</item>
-        <item name="android:colorPrimaryDark">#5A6B77</item>
-        <item name="android:colorAccent">#FFFFFF</item>
-        <item name="android:textColorPrimary">#FFFFFF</item>
-        <item name="android:elevation">4dp</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-
+        <item name="colorPrimary">#579FFC</item>
+        <item name="colorPrimaryDark">#3D71AF</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="elevation">4dp</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1357,7 +1356,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
         <item name="tabMaxWidth">@dimen/tab_max_width</item>
@@ -1369,9 +1368,19 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/styles.xml -->
     <eat-comment/>
-    <style name="FabStyle" parent="Theme.AppCompat.Light">
+    <style name="FabStyleConf" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_compat_margin</item>
+        <item name="android:src">@drawable/ic_done</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+    <style name="FabStylePost" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">@dimen/fab_compat_margin</item>
@@ -1386,7 +1395,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">16dp</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1585,7 +1594,7 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Design.Error" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textColor">@color/error_color</item>
@@ -1605,7 +1614,7 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
@@ -1736,7 +1745,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.Design.AppBarLayout" parent="android:Widget">
         <item name="elevation">@dimen/appbar_elevation</item>

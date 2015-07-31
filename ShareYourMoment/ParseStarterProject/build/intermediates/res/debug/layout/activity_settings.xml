@@ -29,6 +29,7 @@
 
     <Button
         android:id="@+id/logout_button"
+        android:textColor="@color/black_semi_transparent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -38,4 +39,4 @@
         android:layout_alignParentEnd="true"
         android:text="@string/logout_full" />
 
-</RelativeLayout><!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/layout/activity_settings.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/layout/activity_settings.xml -->

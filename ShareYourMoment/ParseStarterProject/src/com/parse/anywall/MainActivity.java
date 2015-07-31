@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -138,6 +139,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
     lastRadius = radius;
     setContentView(R.layout.activity_main);
 
+    ActionBar actionBar = getSupportActionBar();
+    actionBar.setDisplayShowHomeEnabled(true);
+    //actionBar.setDisplayHomeAsUpEnabled(true); //homebutton
+    actionBar.setIcon(R.drawable.ic_launcher);
+    
     initFab();
 
     // Create a new global location parameters object
@@ -247,7 +253,6 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
                     "Please try again after your location appears on the map.", Toast.LENGTH_LONG).show();
             return;
           }
-
           Intent intent = new Intent(MainActivity.this, PostActivity.class);
           intent.putExtra(Application.INTENT_EXTRA_LOCATION, myLoc);
           startActivity(intent);
@@ -583,7 +588,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
             }
             // Display a green marker with the post information
             markerOpts =
-                markerOpts.title(post.getText()).snippet(post.getUser().getUsername())
+                    markerOpts.title(post.getText()).snippet(String.valueOf(post.getCreatedAt()))//markerOpts.title(post.getText()).snippet(post.getUser().getUsername())
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
           }
           // Add a new marker

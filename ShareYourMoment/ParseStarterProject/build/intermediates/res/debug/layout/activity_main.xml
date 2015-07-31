@@ -9,7 +9,6 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="0dp" />
 
@@ -24,8 +23,8 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_gravity="bottom|end"
+        android:layout_gravity="bottom|center"
         app:backgroundTint="@color/half_black"
-        style="@style/FabStyle"/>
+        style="@style/FabStylePost"/>
 
-</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/layout/activity_main.xml -->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/layout/activity_main.xml -->
