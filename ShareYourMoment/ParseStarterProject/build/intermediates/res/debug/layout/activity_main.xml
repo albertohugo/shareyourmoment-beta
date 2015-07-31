@@ -1,0 +1,31 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <ListView
+        android:id="@+id/posts_listview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1108dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@color/half_black"
+        style="@style/FabStyle"/>
+
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/Users/Alberto/Downloads/Parse-Starter-Project-1.9.4%20(1)/ParseStarterProject/res/layout/activity_main.xml -->
