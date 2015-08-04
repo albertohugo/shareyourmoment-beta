@@ -1,6 +1,7 @@
 package com.parse.anywall;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
@@ -8,9 +9,14 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.parse.ParseACL;
@@ -26,16 +32,28 @@ public class PostActivity extends AppCompatActivity {
   // UI references.
   private EditText postEditText;
   private TextView characterCountTextView;
+
+  private String data;
+
   private Button postButton;
 
   private int maxCharacterCount = Application.getConfigHelper().getPostMaxCharacterCount();
   private ParseGeoPoint geoPoint;
+  public String []mydata1={"0","1","2"};
+  public Integer[]images={R.drawable.ic_1,R.drawable.ic_2, R.drawable.ic_3};
+
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
     setContentView(R.layout.activity_post);
+
+    Spinner feeling = (Spinner)findViewById(R.id.spinner1);
+    feeling.setAdapter(new MyAdapter(this, R.layout.custom_spinner, mydata1));
+
+
 
     ActionBar actionBar = getSupportActionBar();
     actionBar.setDisplayShowHomeEnabled(true);
@@ -80,6 +98,47 @@ public class PostActivity extends AppCompatActivity {
     });
   }
 
+  public class MyAdapter extends ArrayAdapter<String>
+  {
+
+    public MyAdapter(Context context, int textViewResourceId, String[] objects)
+    {
+      super(context, textViewResourceId, objects);
+    }
+
+
+    @Override
+    public View getDropDownView(int position, View convertView,ViewGroup parent)
+    {
+      return getCustomView(position, convertView, parent);
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent)
+    {
+      return getCustomView(position, convertView, parent);
+    }
+
+    public View getCustomView(int position, View convertView, ViewGroup parent)
+    {
+
+      LayoutInflater inflater=getLayoutInflater();
+      View row=inflater.inflate(R.layout.custom_spinner, parent, false);
+
+      TextView label=(TextView)row.findViewById(R.id.textView1);
+      label.setText(mydata1[position]);
+
+     // label.setVisibility(View.INVISIBLE);
+      data = mydata1[position];
+
+      ImageView icon=(ImageView)row.findViewById(R.id.imageView1);
+      icon.setImageResource(images[position]);
+
+      return row;
+    }
+
+  }
+
   private void post () {
     String text = postEditText.getText().toString().trim();
 
@@ -95,6 +154,9 @@ public class PostActivity extends AppCompatActivity {
     post.setLocation(geoPoint);
     post.setText(text);
     post.setUser(ParseUser.getCurrentUser());
+
+    post.setFeeling(String.valueOf(data)); //Paramos aqui
+
     ParseACL acl = new ParseACL();
 
     // Give public read access

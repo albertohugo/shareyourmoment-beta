@@ -29,18 +29,18 @@ public final class R {
 		public static final int zOrderOnTop = 0x7f010059;
 	}
 	public static final class color {
-		public static final int common_action_bar_splitter = 0x7f0a0016;
-		public static final int common_signin_btn_dark_text_default = 0x7f0a0017;
-		public static final int common_signin_btn_dark_text_disabled = 0x7f0a0018;
-		public static final int common_signin_btn_dark_text_focused = 0x7f0a0019;
-		public static final int common_signin_btn_dark_text_pressed = 0x7f0a001a;
-		public static final int common_signin_btn_default_background = 0x7f0a001b;
-		public static final int common_signin_btn_light_text_default = 0x7f0a001c;
-		public static final int common_signin_btn_light_text_disabled = 0x7f0a001d;
-		public static final int common_signin_btn_light_text_focused = 0x7f0a001e;
-		public static final int common_signin_btn_light_text_pressed = 0x7f0a001f;
-		public static final int common_signin_btn_text_dark = 0x7f0a0058;
-		public static final int common_signin_btn_text_light = 0x7f0a0059;
+		public static final int common_action_bar_splitter = 0x7f0b0016;
+		public static final int common_signin_btn_dark_text_default = 0x7f0b0017;
+		public static final int common_signin_btn_dark_text_disabled = 0x7f0b0018;
+		public static final int common_signin_btn_dark_text_focused = 0x7f0b0019;
+		public static final int common_signin_btn_dark_text_pressed = 0x7f0b001a;
+		public static final int common_signin_btn_default_background = 0x7f0b001b;
+		public static final int common_signin_btn_light_text_default = 0x7f0b001c;
+		public static final int common_signin_btn_light_text_disabled = 0x7f0b001d;
+		public static final int common_signin_btn_light_text_focused = 0x7f0b001e;
+		public static final int common_signin_btn_light_text_pressed = 0x7f0b001f;
+		public static final int common_signin_btn_text_dark = 0x7f0b0058;
+		public static final int common_signin_btn_text_light = 0x7f0b0059;
 	}
 	public static final class drawable {
 		public static final int common_full_open_on_phone = 0x7f02003b;
@@ -69,22 +69,22 @@ public final class R {
 		public static final int common_signin_btn_text_normal_light = 0x7f020052;
 		public static final int common_signin_btn_text_pressed_dark = 0x7f020053;
 		public static final int common_signin_btn_text_pressed_light = 0x7f020054;
-		public static final int ic_plusone_medium_off_client = 0x7f02005b;
-		public static final int ic_plusone_small_off_client = 0x7f02005c;
-		public static final int ic_plusone_standard_off_client = 0x7f02005d;
-		public static final int ic_plusone_tall_off_client = 0x7f02005e;
-		public static final int powered_by_google_dark = 0x7f02005f;
-		public static final int powered_by_google_light = 0x7f020060;
+		public static final int ic_plusone_medium_off_client = 0x7f02005e;
+		public static final int ic_plusone_small_off_client = 0x7f02005f;
+		public static final int ic_plusone_standard_off_client = 0x7f020060;
+		public static final int ic_plusone_tall_off_client = 0x7f020061;
+		public static final int powered_by_google_dark = 0x7f020062;
+		public static final int powered_by_google_light = 0x7f020063;
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0b002b;
-		public static final int adjust_width = 0x7f0b002c;
-		public static final int hybrid = 0x7f0b002d;
-		public static final int none = 0x7f0b000f;
-		public static final int normal = 0x7f0b000b;
-		public static final int satellite = 0x7f0b002e;
-		public static final int terrain = 0x7f0b002f;
-		public static final int wrap_content = 0x7f0b0039;
+		public static final int adjust_height = 0x7f0c002b;
+		public static final int adjust_width = 0x7f0c002c;
+		public static final int hybrid = 0x7f0c002d;
+		public static final int none = 0x7f0c000f;
+		public static final int normal = 0x7f0c000b;
+		public static final int satellite = 0x7f0c002e;
+		public static final int terrain = 0x7f0c002f;
+		public static final int wrap_content = 0x7f0c0039;
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f090005;

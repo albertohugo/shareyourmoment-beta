@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="feeling">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item/>
+    </string-array>
     <!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -384,6 +394,7 @@
     <eat-comment/>
     <string name="login">Log in</string>
     <string name="logout_full">Log out</string>
+    <string name="option">Feeling</string>
     <string name="parse">Parse</string>
     <string name="post">Post</string>
     <string name="post_out_of_range">Can\'t view post! Get closer.</string>

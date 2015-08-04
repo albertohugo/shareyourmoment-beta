@@ -18,5 +18,15 @@
     <string name="settings_distance_format">%d feet</string>
     <string name="activity_post_title">Create a Post</string>
     <string name="character_count_placeholder">0/140</string>
+    <string name="option">Feeling</string>
+
+    <string-array name="feeling">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item></item>
+    </string-array>
 
 </resources>

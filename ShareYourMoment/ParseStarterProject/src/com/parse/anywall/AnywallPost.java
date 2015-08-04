@@ -35,6 +35,14 @@ public class AnywallPost extends ParseObject {
     put("location", value);
   }
 
+  public String getFeeling() {
+    return getString("feeling");
+  }
+
+  public void setFeeling(String feeling) {
+    put("feeling", feeling);
+  }
+
   public static ParseQuery<AnywallPost> getQuery() {
     return ParseQuery.getQuery(AnywallPost.class);
   }

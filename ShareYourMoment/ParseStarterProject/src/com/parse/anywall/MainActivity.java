@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
     GoogleApiClient.ConnectionCallbacks,
     GoogleApiClient.OnConnectionFailedListener {
 
+  public Integer[]images={R.drawable.ic_1,R.drawable.ic_2, R.drawable.ic_3};
   /*
    * Define a request code to send to Google Play services This code is returned in
    * Activity.onActivityResult
@@ -589,7 +590,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
             // Display a green marker with the post information
             markerOpts =
                     markerOpts.title(post.getText()).snippet(String.valueOf(post.getCreatedAt()))//markerOpts.title(post.getText()).snippet(post.getUser().getUsername())
-                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    .icon(BitmapDescriptorFactory.fromResource(images[Integer.parseInt(post.getFeeling())]));//defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
           }
           // Add a new marker
           Marker marker = mapFragment.getMap().addMarker(markerOpts);
