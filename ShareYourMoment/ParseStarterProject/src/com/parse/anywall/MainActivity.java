@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
     GoogleApiClient.ConnectionCallbacks,
     GoogleApiClient.OnConnectionFailedListener {
 
-  public Integer[]images={R.drawable.ic_1,R.drawable.ic_2, R.drawable.ic_3};
+  public Integer[]images={R.drawable.ic_happy,R.drawable.ic_angel,R.drawable.ic_angry,R.drawable.ic_blablabla,R.drawable.ic_blank_face,R.drawable.ic_blushing,R.drawable.ic_closing_eyes,R.drawable.ic_confused,R.drawable.ic_confused_2,R.drawable.ic_cool,R.drawable.ic_crying,R.drawable.ic_crying_laugh,R.drawable.ic_dancing,R.drawable.ic_devil,R.drawable.ic_disgust,R.drawable.ic_dissapointed,R.drawable.ic_dreaming,R.drawable.ic_epic_win,R.drawable.ic_eurica,R.drawable.ic_evil_laugh,R.drawable.ic_eye_roll,R.drawable.ic_eyes_closed,R.drawable.ic_eyes_hearts,R.drawable.ic_forgot,R.drawable.ic_hand_smack,R.drawable.ic_hello,R.drawable.ic_hug,R.drawable.ic_drop,R.drawable.ic_joke,R.drawable.ic_kiss,R.drawable.ic_like,R.drawable.ic_like_2,R.drawable.ic_lol,R.drawable.ic_love,R.drawable.ic_mad,R.drawable.ic_nerd,R.drawable.ic_overworked,R.drawable.ic_poop,R.drawable.ic_pour,R.drawable.ic_rock,R.drawable.ic_scared,R.drawable.ic_secret,R.drawable.ic_sleeping,R.drawable.ic_success,R.drawable.ic_wink};
   /*
    * Define a request code to send to Google Play services This code is returned in
    * Activity.onActivityResult
@@ -575,7 +575,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
             // Display a red marker with a predefined title and no snippet
             markerOpts =
                 markerOpts.title(getResources().getString(R.string.post_out_of_range)).icon(
-                    BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+                    BitmapDescriptorFactory.fromResource(R.drawable.ic_secret));//.defaultMarker(BitmapDescriptorFactory.HUE_RED));
           } else {
             // Check for an existing in range marker
             if (oldMarker != null) {

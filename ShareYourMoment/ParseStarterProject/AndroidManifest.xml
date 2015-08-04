@@ -11,6 +11,7 @@
     <permission
         android:name="com.parse.anywall.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" >
+
     </permission>
 
     <uses-permission android:name="com.parse.anywall.permission.MAPS_RECEIVE" />

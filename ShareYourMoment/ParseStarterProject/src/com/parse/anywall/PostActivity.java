@@ -39,8 +39,8 @@ public class PostActivity extends AppCompatActivity {
 
   private int maxCharacterCount = Application.getConfigHelper().getPostMaxCharacterCount();
   private ParseGeoPoint geoPoint;
-  public String []mydata1={"0","1","2"};
-  public Integer[]images={R.drawable.ic_1,R.drawable.ic_2, R.drawable.ic_3};
+  public String []mydata1={"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44"};
+  public Integer[]images={R.drawable.ic_happy,R.drawable.ic_angel,R.drawable.ic_angry,R.drawable.ic_blablabla,R.drawable.ic_blank_face,R.drawable.ic_blushing,R.drawable.ic_closing_eyes,R.drawable.ic_confused,R.drawable.ic_confused_2,R.drawable.ic_cool,R.drawable.ic_crying,R.drawable.ic_crying_laugh,R.drawable.ic_dancing,R.drawable.ic_devil,R.drawable.ic_disgust,R.drawable.ic_dissapointed,R.drawable.ic_dreaming,R.drawable.ic_epic_win,R.drawable.ic_eurica,R.drawable.ic_evil_laugh,R.drawable.ic_eye_roll,R.drawable.ic_eyes_closed,R.drawable.ic_eyes_hearts,R.drawable.ic_forgot,R.drawable.ic_hand_smack,R.drawable.ic_hello,R.drawable.ic_hug,R.drawable.ic_drop,R.drawable.ic_joke,R.drawable.ic_kiss,R.drawable.ic_like,R.drawable.ic_like_2,R.drawable.ic_lol,R.drawable.ic_love,R.drawable.ic_mad,R.drawable.ic_nerd,R.drawable.ic_overworked,R.drawable.ic_poop,R.drawable.ic_pour,R.drawable.ic_rock,R.drawable.ic_scared,R.drawable.ic_secret,R.drawable.ic_sleeping,R.drawable.ic_success,R.drawable.ic_wink};
 
 
 
@@ -150,12 +150,15 @@ public class PostActivity extends AppCompatActivity {
     // Create a post.
     AnywallPost post = new AnywallPost();
 
+
     // Set the location to the current user's location
     post.setLocation(geoPoint);
     post.setText(text);
     post.setUser(ParseUser.getCurrentUser());
 
-    post.setFeeling(String.valueOf(data)); //Paramos aqui
+    post.setFeeling(String.valueOf(data)); //Feeling
+
+
 
     ParseACL acl = new ParseACL();
 
