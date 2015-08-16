@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/relativeLayout1"
     android:layout_width="match_parent"
+    android:orientation="horizontal"
     android:layout_height="wrap_content">
-
-
-    <ImageView
-        android:src="@drawable/ic_launcher"
-        android:layout_width="fill_parent"
-        android:layout_height="32dp"
-        android:id="@+id/imageView1"
-        android:layout_alignParentLeft="true">
-    </ImageView>
+       <ImageView
+            android:src="@drawable/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/imageView1">
+        </ImageView>
 
     <TextView
-        android:visibility="gone"
-        android:layout_marginTop="10dip"
-        android:layout_width="wrap_content"
-        android:id="@+id/textView1"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_toRightOf="@+id/imageView1">
-    </TextView>
+            android:visibility="gone"
+            android:layout_marginTop="10dip"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content">
+        </TextView>
 
 
-
-
-</RelativeLayout><!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/layout/custom_spinner.xml -->
+</LinearLayout><!-- From: file:/C:/Users/Alberto/AndroidStudioProjects/ShareYourMoment/ParseStarterProject/res/layout/custom_spinner.xml -->

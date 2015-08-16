@@ -12,11 +12,12 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.parse.ParseACL;
@@ -35,7 +36,7 @@ public class PostActivity extends AppCompatActivity {
 
   private String data;
 
-  private Button postButton;
+  private GridView grid;
 
   private int maxCharacterCount = Application.getConfigHelper().getPostMaxCharacterCount();
   private ParseGeoPoint geoPoint;
@@ -47,12 +48,36 @@ public class PostActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
     setContentView(R.layout.activity_post);
 
-    Spinner feeling = (Spinner)findViewById(R.id.spinner1);
-    feeling.setAdapter(new MyAdapter(this, R.layout.custom_spinner, mydata1));
+    final ImageButton button = (ImageButton) findViewById(R.id.btn);
 
+    button.setOnClickListener(new View.OnClickListener() {
+      public void onClick(View v) {
+        grid = (GridView) findViewById(R.id.grid);
+        grid.setVisibility(View.VISIBLE);
+        button.setVisibility(View.GONE);
+        grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+          public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+            TextView label=(TextView)findViewById(R.id.textView1);
+            label.setText(mydata1[position]);
+
+            data = mydata1[position];
+
+            ImageView icon=(ImageView)findViewById(R.id.btn);
+            icon.setImageResource(images[position]);
+
+            grid.setVisibility(View.GONE);
+            button.setVisibility(View.VISIBLE);
+          }
+        });
+      }
+    });
+
+    ArrayAdapter ad=new MyAdapter(this,R.layout.custom_spinner,mydata1);
+    GridView grid=(GridView)findViewById(R.id.grid);
+    grid.setAdapter(ad);
 
 
     ActionBar actionBar = getSupportActionBar();
@@ -114,22 +139,21 @@ public class PostActivity extends AppCompatActivity {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent)
-    {
+    public View getView(int position, View convertView, ViewGroup parent) {
       return getCustomView(position, convertView, parent);
     }
 
     public View getCustomView(int position, View convertView, ViewGroup parent)
     {
-
       LayoutInflater inflater=getLayoutInflater();
       View row=inflater.inflate(R.layout.custom_spinner, parent, false);
+
 
       TextView label=(TextView)row.findViewById(R.id.textView1);
       label.setText(mydata1[position]);
 
-     // label.setVisibility(View.INVISIBLE);
-      data = mydata1[position];
+      // label.setVisibility(View.INVISIBLE);
+    //  data = mydata1[position];
 
       ImageView icon=(ImageView)row.findViewById(R.id.imageView1);
       icon.setImageResource(images[position]);
@@ -139,7 +163,7 @@ public class PostActivity extends AppCompatActivity {
 
   }
 
-  private void post () {
+    private void post () {
     String text = postEditText.getText().toString().trim();
 
     // Set up a progress dialog
@@ -150,16 +174,12 @@ public class PostActivity extends AppCompatActivity {
     // Create a post.
     AnywallPost post = new AnywallPost();
 
-
     // Set the location to the current user's location
     post.setLocation(geoPoint);
     post.setText(text);
     post.setUser(ParseUser.getCurrentUser());
 
     post.setFeeling(String.valueOf(data)); //Feeling
-
-
-
     ParseACL acl = new ParseACL();
 
     // Give public read access
@@ -183,7 +203,7 @@ public class PostActivity extends AppCompatActivity {
   private void updatePostButtonState () {
     int length = getPostEditTextText().length();
     boolean enabled = length > 0 && length < maxCharacterCount;
-   // postButton.setEnabled(enabled);
+    // postButton.setEnabled(enabled);
   }
 
   private void updateCharacterCountTextViewText () {

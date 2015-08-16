@@ -6,15 +6,22 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <Spinner
-        android:drawSelectorOnTop="true"
-        android:id="@+id/spinner1"
-        android:gravity="center"
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:src="@drawable/ic_happy"
+        android:layout_gravity="center"/>
+    <GridView
+        android:visibility="gone"
         android:layout_width="fill_parent"
-        android:layout_height="32dp"
-        android:prompt="@string/option">
-    </Spinner>
-
+        android:layout_height="wrap_content"
+        android:id="@+id/grid"
+        android:background="#D6D7D7"
+        android:numColumns="6"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"/>
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -22,15 +29,22 @@
 
     <EditText
         android:id="@+id/post_edittext"
+        android:cursorVisible="true"
+        android:maxLength="140"
+        android:textCursorDrawable="@null"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_above="@+id/character_count_textview"
-        android:background="@null"
+        android:background="#FFFFFF"
         android:textColor="@color/black_semi_transparent"
         android:hint="@string/prompt_post"
         android:inputType="textMultiLine"
         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"
         android:gravity="top" >
+
         <requestFocus />
     </EditText>
 
@@ -51,7 +65,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:text="@string/character_count_placeholder"
-
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
 
